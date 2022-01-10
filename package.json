@@ -2,9 +2,13 @@
   "name": "basicjs",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "babel-node ./src/toThirtyFromFourty/problemFive.js",
+    "twenty": "babel-node ./src/toTwentyFromThirty/problemTen.js",
+    "thirty": "babel-node ./src/toThirtyFromFourty/problemTen.js",
+    "fourty": "babel-node ./src/toFourtyFromFifty/problemNine.js",
+    "one": "babel-node ./src/toOneFromTen/problemOne.js"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +20,10 @@
     "@babel/preset-env": "^7.16.4",
     "babel-jest": "^27.4.4",
     "jest": "^27.4.4",
+    "nodemon": "^2.0.15",
     "regenerator-runtime": "^0.13.9"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
   }
 }
